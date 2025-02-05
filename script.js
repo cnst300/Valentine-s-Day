@@ -39,12 +39,35 @@ document.getElementById("yesBT").addEventListener("click", function() {
 
 document.getElementById("noBT").addEventListener("click", () => {
     clickNo++;
+    console.log("clickNo: ", clickNo);
+
     document.body.classList.add("blackOUT");
 
-    // Așteaptă 2.5 secunde înainte de a afișa alerta
-    setTimeout(() => {
-        alert("Vrei sa ti rup picioarele? \n Eu zic sa mai incerci odata!");
+    if(clickNo == 1){
+        setTimeout(() => {
+            alert("Vrei sa ti rup picioarele? \n Eu zic sa mai incerci odata!");
 
-        document.body.classList.remove("blackOUT");
-    }, 2500); 
+            document.body.classList.remove("blackOUT");
+        }, 2500); 
+    }
+
+    if(clickNo == 2){
+        setTimeout(() => {
+            alert("Acum chiar cred ca vrei sa ti rup picioarele!!!");
+
+            document.body.classList.remove("blackOUT");
+        }, 2500); 
+    }
+
+    if(clickNo == 3){
+        setTimeout(() => {
+            alert("Ai belit pla! \n Ne despartim!");
+
+            document.querySelector("h1").style.display = "none";
+
+            document.querySelectorAll("button").forEach(button => {
+                button.style.display = "none";
+            });
+        }, 2500); 
+    }
 });
