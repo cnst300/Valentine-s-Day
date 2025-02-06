@@ -45,9 +45,6 @@ body {
     p {
         font-size: 40px;
     }
-    .video-container {
-        width: 80%;  /* Scădem lățimea pe ecrane mari */
-    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -57,9 +54,6 @@ body {
     p {
         font-size: 30px;
     }
-    .video-container {
-        width: 90%;  /* Reducem și mai mult lățimea pe tablete sau ecrane mici */
-    }
 }
 
 @media only screen and (max-width: 480px) {
@@ -68,8 +62,5 @@ body {
     }
     p {
         font-size: 25px;
-    }
-    .video-container {
-        width: 100%;  /* Pe telefoane, utilizăm întreaga lățime */
     }
 }
