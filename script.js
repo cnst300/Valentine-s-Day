@@ -32,9 +32,9 @@ colorButtonNo.addEventListener('mouseleave', () => {
 
 document.getElementById("yesBT").addEventListener("click", function() {
     if(clickNo != 0){
-        alert("Asa vtm, vezi ca se poate?");
+        alert("Asa da ❤️");
     }
-    window.location.href = "yes.html"; // Navighează la pagina1.html
+    window.location.href = "yes.html";
 });
 
 document.getElementById("noBT").addEventListener("click", () => {
@@ -45,7 +45,7 @@ document.getElementById("noBT").addEventListener("click", () => {
 
     if(clickNo == 1){
         setTimeout(() => {
-            alert("Vrei sa ti rup picioarele? \n Eu zic sa mai incerci odata!");
+            alert("Cred ca ai apasat gresit..\n Eu zic sa mai incerci odata!");
 
             document.body.classList.remove("blackOUT");
         }, 1500); 
@@ -53,7 +53,7 @@ document.getElementById("noBT").addEventListener("click", () => {
 
     if(clickNo == 2){
         setTimeout(() => {
-            alert("Acum chiar cred ca vrei sa ti rup picioarele!!!");
+            alert("Vezi ca trebuie sa apesi celalat buton..");
 
             document.body.classList.remove("blackOUT");
         }, 1500); 
@@ -61,7 +61,7 @@ document.getElementById("noBT").addEventListener("click", () => {
 
     if(clickNo == 3){
         setTimeout(() => {
-            alert("Ai belit pla! \n Ne despartim!");
+            alert("M-ai suparat..");
 
             document.querySelector("h1").style.display = "none";
 
