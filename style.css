@@ -134,5 +134,5 @@ body {
 
 .blackOUT{
     background: rgb(0, 0, 0);
-    transition: background 2s ease-in-out;
+    transition: background 1s ease-in-out;
 }

@@ -48,7 +48,7 @@ document.getElementById("noBT").addEventListener("click", () => {
             alert("Vrei sa ti rup picioarele? \n Eu zic sa mai incerci odata!");
 
             document.body.classList.remove("blackOUT");
-        }, 2500); 
+        }, 1500); 
     }
 
     if(clickNo == 2){
@@ -56,7 +56,7 @@ document.getElementById("noBT").addEventListener("click", () => {
             alert("Acum chiar cred ca vrei sa ti rup picioarele!!!");
 
             document.body.classList.remove("blackOUT");
-        }, 2500); 
+        }, 1500); 
     }
 
     if(clickNo == 3){
@@ -68,6 +68,6 @@ document.getElementById("noBT").addEventListener("click", () => {
             document.querySelectorAll("button").forEach(button => {
                 button.style.display = "none";
             });
-        }, 2500); 
+        }, 1500); 
     }
 });
